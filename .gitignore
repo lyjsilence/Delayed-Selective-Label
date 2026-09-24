@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+results/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Local reproduction evidence is not part of the source release.
+reference_results/
+tests/fixtures/
+scripts/check_results.py
