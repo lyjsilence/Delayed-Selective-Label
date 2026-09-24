@@ -1,0 +1,43 @@
+{
+  "environment": {
+    "horizon": 4000,
+    "cells": 20,
+    "calibration_size": 1000,
+    "unchanged_low": [
+      0.48,
+      0.52,
+      0.56,
+      0.6,
+      0.62,
+      0.64
+    ],
+    "unchanged_high": [
+      0.82,
+      0.84,
+      0.86,
+      0.88,
+      0.9,
+      0.92
+    ],
+    "boundary_cells": 8,
+    "boundary_half_band": 0.007,
+    "historical_boundary_center": 0.675,
+    "current_boundary_center": 0.8,
+    "prior_strength": 4.0,
+    "cost": 0.7
+  },
+  "policy": {
+    "survival_exploration": 0.24499999999999997,
+    "timing_gain_scale": 300,
+    "planning_window": 50,
+    "information_coefficient": 2
+  },
+  "delay": {
+    "mu_fast": 2.0,
+    "mu_slow": 5.6,
+    "sigma": 0.75,
+    "fast_probability": 0.25
+  },
+  "seed_start": 5700000,
+  "seed_count": 1000
+}
